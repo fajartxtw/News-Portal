@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import Layout from '../layouts/Layout';
 import Loading from '../components/Loading';
 import axios from 'axios';
-import VerticalNewsCard from '../components/Cards/VerticalNewsCard';
+import VerticalNewsCard from '../components/Cards/verticalNewsCard';
 
 const SearchResult = () => {
     const [newsList, setNewsList] = useState([]);
