@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Loading from '../components/Loading';
 import TopNews from '../components/Cards/TopNews';
-import VerticalNewsCard from '../components/Cards/VerticalNewsCard';
+import VerticalNewsCard from '../components/Cards/verticalNewsCard';
 import axios from 'axios';
 import Layout from '../layouts/Layout';
 
